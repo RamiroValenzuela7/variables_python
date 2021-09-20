@@ -31,3 +31,21 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+#Carga de numeros reales por teclado.
+primer_num = int(input("Carga el valor del primer numero real: "))
+segundo_num = int(input("Carga el valor del segundo numero real: "))
+
+#Operaciones.
+suma = primer_num + segundo_num
+resta = primer_num - segundo_num
+mult = primer_num * segundo_num
+div = primer_num / segundo_num
+exp = primer_num ** segundo_num
+
+#Impresion de resultados de cada operacion realizada.
+print("El resultado de la suma entre",primer_num,"y",segundo_num,"es:",suma)
+print("El resultado de la resta entre",primer_num,"y",segundo_num,"es:",resta)
+print("El resultado de la multiplicación entre",primer_num,"y",segundo_num,"es:",mult)
+print("El resultado de la division entre",primer_num,"y",segundo_num,"es:",div)
+print("El resultado de la potenciacion entre",primer_num,"y",segundo_num,"es:",exp)
